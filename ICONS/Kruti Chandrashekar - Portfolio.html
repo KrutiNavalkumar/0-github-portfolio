@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<!-- saved from url=(0080)file:///Users/kruti/Desktop/All%20Folders/DATA%20SCIENCE%20PORTFOLIO/index.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kruti Chandrashekar - Portfolio</title>
+    <link href="./Kruti Chandrashekar - Portfolio_files/css2" rel="stylesheet">
+    <link href="./Kruti Chandrashekar - Portfolio_files/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lora', serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #000000, #040404);
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .about-section, .skills-section, .contact-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            background-color: rgba(97, 33, 68, 0.9);
+            box-shadow: 0 0 20px rgba(245, 237, 237, 0.3);
+            border-radius: 12px;
+            max-width: 1000px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .about-image img {
+            width: 260px;
+            height: 260px;
+            border-radius: 60%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            border: 5px solid rgba(255, 255, 255, 0.9);
+        }
+
+        .about-content h1, .skills-section h2, .contact-section h2 {
+            color: #f5f5f5;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .about-content p {
+            color: #f5eeee;
+            line-height: 1.8;
+            margin-bottom: 10px;
+            font-size: 1em;
+            font-style: italic;
+        }
+
+        .skills-section .card {
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            height: 100%;
+            width: 100%;
+            box-sizing: border-box;
+            background-color: rgba(255, 255, 255, 0.9);
+            border: none;
+            border-radius: 50px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .skills-section .card img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 05px;
+        }
+
+        .skills-section .card-body {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            height: 50%;
+        }
+
+        .skills-section .card-body h5 {
+            font-size: 1.1em;
+            color: #4a0847;
+        }
+
+        .skills-section .btn {
+            margin-top: auto;
+            background-color: #2b808b;
+            border: none;
+            color: white;
+            padding: 10px 10px;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .skills-section .btn:hover {
+            background-color: #850f7d;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 5px;
+            flex-wrap: wrap;
+        }
+
+        .contact-info div {
+            margin: 10px 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-info img {
+            width: 40px;
+            height: 20px;
+            margin-right: 20px;
+        }
+
+        .contact-icons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .contact-icons a {
+            margin: 0 20px;
+            text-align: center;
+            color: #fdfafa;
+            text-decoration: none;
+        }
+
+        .contact-icons img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 10px;
+        }
+
+        .contact-icons p {
+            margin: 0;
+            font-size: 1em;
+        }
+
+        .contact-note {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #f6eded;
+        }
+        .contact-info span {
+         color: white;
+         font-weight: italics;
+        }
+    </style>
+</head>
+<body>
+    <div class="about-section">
+        <div class="about-image">
+            <img src="./Kruti Chandrashekar - Portfolio_files/kruti chandrashekar.jpg" alt="Kruti Chandrashekar">
+        </div>
+        <div class="about-content">
+            <h1>About Me</h1>
+            <p>Hello! I'm Kruti Chandrashekar, a passionate data analyst with a background in IT for 2 years, currently pursuing a Master's degree in IT with a specialization in Data Analytics from Singapore Management University.</p>
+        </div>
+    </div>
+
+    <div class="skills-section">
+        <h2>Skills</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 d-flex">
+                    <div class="card">
+                        <img src="./Kruti Chandrashekar - Portfolio_files/1.png" class="card-img-top" alt="MySQL">
+                        <div class="card-body">
+                            <h5 class="card-title">MySQL</h5>
+                            <a href="https://github.com/KrutiNavalkumar/Projects-with--DATA-ANALYSIS-USING-MySQL" class="btn btn-primary">Projects</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex">
+                    <div class="card">
+                        <img src="./Kruti Chandrashekar - Portfolio_files/2.png" class="card-img-top" alt="PostgreSQL">
+                        <div class="card-body">
+                            <h5 class="card-title">PostgreSQL</h5>
+                            <a href="https://github.com/KrutiNavalkumar/Projects-with--DATA-ANALYSIS-USING-Postgresql" class="btn btn-primary">Projects</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex">
+                    <div class="card">
+                        <img src="./Kruti Chandrashekar - Portfolio_files/3.png" class="card-img-top" alt="Python">
+                        <div class="card-body">
+                            <h5 class="card-title">Python</h5>
+                            <a href="https://github.com/KrutiNavalkumar/Projects-with-DATA-ANALYTICS-USING-PYTHON" class="btn btn-primary">Projects</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex">
+                    <div class="card">
+                        <img src="./Kruti Chandrashekar - Portfolio_files/4.png" class="card-img-top" alt="R Studio">
+                        <div class="card-body">
+                            <h5 class="card-title">R Studio</h5>
+                            <a href="https://github.com/KrutiNavalkumar/Projects-with--DATA-ANALYSIS-USING-Rstudio" class="btn btn-primary">Projects</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex">
+                    <div class="card">
+                        <img src="./Kruti Chandrashekar - Portfolio_files/5.png" class="card-img-top" alt="MS Office">
+                        <div class="card-body">
+                            <h5 class="card-title">MS Office</h5>
+                            <a href="https://github.com/KrutiNavalkumar/Projects-with--DATA-ANALYSIS-USING-MS-EXCEL" class="btn btn-primary">Projects</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex">
+                    <div class="card">
+                        <img src="./Kruti Chandrashekar - Portfolio_files/6.png" class="card-img-top" alt="SAS Viya">
+                        <div class="card-body">
+                            <h5 class="card-title">SAS Viya</h5>
+                            <a href="file:///Users/kruti/Desktop/All%20Folders/DATA%20SCIENCE%20PORTFOLIO/index.html#" class="btn btn-primary">Projects</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex">
+                    <div class="card">
+                        <img src="./Kruti Chandrashekar - Portfolio_files/7.png" class="card-img-top" alt="Tableau">
+                        <div class="card-body">
+                            <h5 class="card-title">Tableau</h5>
+                            <a href="https://github.com/KrutiNavalkumar/Projects-with--DATA-ANALYSIS-USING-Tableau" class="btn btn-primary">Projects</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex">
+                    <div class="card">
+                        <img src="./Kruti Chandrashekar - Portfolio_files/8.png" class="card-img-top" alt="Power BI">
+                        <div class="card-body">
+                            <h5 class="card-title">Power BI</h5>
+                            <a href="https://github.com/KrutiNavalkumar/Projects-with--DATA-ANALYSIS-USING-PowerBi" class="btn btn-primary">Projects</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-section">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <div>
+                <img src="./Kruti Chandrashekar - Portfolio_files/1(1).png" alt="Email">
+                <span>Mail ID: kruti.c.2023@mitb.smu.edu.sg</span>
+            </div>
+            <div>
+                <img src="./Kruti Chandrashekar - Portfolio_files/2(1).png" alt="Phone">
+                <span>Phone Number: +6593233397</span>
+            </div>
+        </div>
+        <div class="contact-icons">
+            <a href="https://github.com/KrutiNavalkumar/github-portfolio">
+                <img src="./Kruti Chandrashekar - Portfolio_files/github.png" alt="GitHub">
+                <p>GitHub</p>
+            </a>
+            <a href="https://www.linkedin.com/in/kruti-chandrashekar">
+                <img src="./Kruti Chandrashekar - Portfolio_files/linkedin.png" alt="LinkedIn">
+                <p>LinkedIn</p>
+            </a>
+        </div>
+        <p class="contact-note">Click on the icon for the link</p>
+    </div>
+
+    <script src="./Kruti Chandrashekar - Portfolio_files/jquery-3.2.1.slim.min.js"></script>
+    <script src="./Kruti Chandrashekar - Portfolio_files/popper.min.js"></script>
+    <script src="./Kruti Chandrashekar - Portfolio_files/bootstrap.min.js"></script>
+
+
+</body></html>
